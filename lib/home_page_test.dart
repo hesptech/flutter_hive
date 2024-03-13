@@ -17,7 +17,7 @@ class _HomePageTestState extends State<HomePageTest> {
   }
 
   void readData() {
-    print(_myBox.get(1));
+    //print(_myBox.get(1));
   }
     
   void deletedata() {

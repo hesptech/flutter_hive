@@ -96,6 +96,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () { 
           createNewTask();
+          _controller.clear();
         },
         child: const Icon(Icons.add),
       ),
